@@ -1,0 +1,57 @@
+.banner{
+    
+    display: flex;
+    
+    justify-content: center; 
+    padding: 50px;
+    gap: 20px;
+}
+.one{
+    
+    height: 451px;
+    width: 690px;
+    border: 2px solid black;
+    background-image: url("http://getwallpapers.com/wallpaper/full/4/8/b/874889-most-popular-india-desktop-wallpaper-1920x1080.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a{
+    margin-bottom: 20px;
+    height: 214px;
+    width: 281px;
+    border: 2px solid black;
+    background-image: url("https://w0.peakpx.com/wallpaper/619/209/HD-wallpaper-india-flag-amoled-amoled-super-amoled-dark-fly-amoled-indian-sexy-shrimp-thumbnail.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b{
+    
+    height: 214px;
+    width: 281px;
+    border: 2px solid black;
+    background-image: url("https://cdn5.vectorstock.com/i/1000x1000/45/89/logo-for-india-vector-14634589.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hh{
+    margin-top: 170px;
+    height: 344px;
+    width: 565px;
+    border: 2px solid black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/278/026/original/flag-of-india-in-wavy-trocolor-style-vector.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.img4{
+    width: 311px;
+    height: 221px;
+}
+.img5{
+    width: 250px;
+    height: 200px;
+}
