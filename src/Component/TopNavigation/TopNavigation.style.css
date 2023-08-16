@@ -1,6 +1,19 @@
 .nav{
+    width: 91%;
+    margin-left: 67px;
+    height: 45px;
     display: flex;
     justify-content: space-around;
     font-size: larger;
-    text-decoration : none
+    text-decoration : none;
+    background-color: black;
+}
+@media (min-width:450px) and (max-width:600px)
+{
+    .nav{
+        height: 190px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

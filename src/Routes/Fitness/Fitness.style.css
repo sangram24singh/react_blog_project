@@ -1,5 +1,6 @@
 .bollywood{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: black;
 }

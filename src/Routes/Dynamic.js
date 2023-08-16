@@ -1,12 +1,18 @@
 import React from 'react'
 import { useLocation } from 'react-router-dom'
 import "./Dynamic.style.css"
+import { Logo, TopNavigation } from '../Component/Common'
+import LatestStories from './Home/LatestStories'
 
 
 const Dynamic = () => {
   let loc = useLocation()
   console.log(loc);
   return (
+
+    <>
+      <div style={{marginLeft:"-1100px"}}><Logo/></div>
+    <hr  style={{width:"99%", height:"8px"}}/>
     <div className='container'>
         <h1>{loc.state.heading}</h1>
         <div className=''></div>
@@ -25,6 +31,8 @@ const Dynamic = () => {
 
         </div>
     </div>
+    <LatestStories/>
+    </>
   )
 }
 

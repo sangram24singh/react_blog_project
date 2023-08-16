@@ -1,5 +1,5 @@
 import React,{useContext} from 'react'
-import { Header } from '../../Component/Common'
+import { Header, Logo, TopNavigation } from '../../Component/Common'
 import { store } from "../../Utility/ContextStore/ContextApi"
 import { Link } from 'react-router-dom'
 import "./Bollywood.style.css"
@@ -8,7 +8,6 @@ const TopPost = () => {
   let [count] = useContext(store)
   return (
     <div>
-      {/* <h1>Top post</h1> */}
       <Header headertext={"Top Post"}/>
       <div>
         <img src="https://miro.medium.com/max/1024/1*XNEc7sImHVsOADV_iY8xYQ.png" alt="" height={"270px"}/>

@@ -1,18 +1,19 @@
 import React,{useContext} from 'react'
 import { store } from '../../Utility/ContextStore/ContextApi'
 import { Header } from '../../Component/Common'
+import "./Home.style.css"
 
 const LatestStories = () => {
   let [count] = useContext(store)
   return (
     <div>
-       <div>
-      <div><Header headertext={"Latest Stories"}/></div>
       <div>
-            <div style={{display:"flex", gap:"15px", justifyContent:"center"}}>
+      <div className='myhead'><Header headertext={"Latest Stories"}/></div>
+      <div>
+            <div className='mylatest12'>
                 {count.filter((item) => item.cat === 'the latest').map((d, index) => {
                     return (
-                        <div>
+                        <div className='myfooter'>
                           <div>
                 
                           {/* <img src={d.img} alt="" height={"150"}/> */}
@@ -28,6 +29,7 @@ const LatestStories = () => {
             </div>
         </div>
     </div>
+    <hr style={{width:"95%"}}/>
     </div>
   )
 }

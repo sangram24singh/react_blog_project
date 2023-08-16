@@ -11,7 +11,7 @@ const TopPost = () => {
       {/* <h1>Top post</h1> */}
       <Header headertext={"Top Post"}/>
       <div>
-        <img src="https://7esl.com/wp-content/uploads/2018/03/sport-and-exercise.jpg" alt="" height={"270px"}/>
+        <img src="https://wallpaperaccess.com/full/834255.jpg" alt="" height={"270px"}/>
         <h4>images in my mind too: a strapping man he is mine<br /> Lorem ipsum dolor sit amet.</h4>
       </div>
       <div>

@@ -1,7 +1,7 @@
 .banner{
-    
+    height: 470px;
     display: flex;
-    
+    flex-wrap: wrap;
     justify-content: center; 
     padding: 50px;
     gap: 20px;
@@ -9,7 +9,7 @@
 .one{
     
     height: 451px;
-    width: 690px;
+    width: 50%;
     border: 2px solid black;
     background-image: url("http://getwallpapers.com/wallpaper/full/4/8/b/874889-most-popular-india-desktop-wallpaper-1920x1080.jpg");
     background-position: center;
@@ -54,4 +54,51 @@
 .img5{
     width: 250px;
     height: 200px;
+}
+.mylatest{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.mylatest1{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.mylatest12{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.myhead{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+}
+.myfooter{
+    width:50%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (min-width:300px) and (max-width:600px){
+    .latestarticle{
+        width: 70%;
+        text-align: center;
+    }
+    .mylatest{
+        height: 600px;
+        flex-direction: column;
+        
+    }
 }

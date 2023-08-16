@@ -18,7 +18,7 @@ const TopNavigation = () => {
       <Link to="/food">Food</Link>
       </div>
       <div>
-        <hr />
+        <hr style={{width:"91%"}}/>
       </div>
     </div>
   )

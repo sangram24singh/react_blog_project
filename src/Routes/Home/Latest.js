@@ -8,9 +8,9 @@ const Latest = () => {
   let [count] = useContext(store)
   return (
     <div>
-      <div><Header headertext={"The Latest"}/></div>
+      <div className='myhead'><Header headertext={"The Latest"}/></div>
       <div>
-            <div style={{display:"flex", gap:"15px", justifyContent:"center"}}>
+            <div className='mylatest'>
                 {count.filter((item) => item.cat === 'the latest').map((d, index) => {
                     return (
                         <div>

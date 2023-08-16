@@ -1,6 +1,6 @@
 .logo{
     width: 100%;
-    font-size: 40px;
+    font-size: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,9 +8,19 @@
 }
 .turn{
     transform: rotate(-90deg);
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 600;
     font-style: bold;
 }
-
+.myimg{
+    width: 40px;
+    display: none;
+    position: absolute;
+}
+@media (max-width:600px) {
+    .myimg{
+        right: 50px;
+        display: block;
+    }
+}
 
